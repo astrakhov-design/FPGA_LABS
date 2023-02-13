@@ -4,7 +4,7 @@
 module LFSR (
 	input clk,
 	input rst,
-	output reg [7:0] out_s
+	output wire [7:0] out_s
 	);
     
 

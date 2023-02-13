@@ -45,7 +45,7 @@ module counter_top(
 		begin
 			if (nrst)
 				begin
-					clock_selected <= 1'b0;
+					clock_selected <= 2'b00;
 				end
 			else
 				begin
